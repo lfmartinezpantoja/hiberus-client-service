@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      label: master
+      profile: master
+      uri: http://localhost:4000/config-server
